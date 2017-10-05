@@ -166,9 +166,9 @@ function initMap() {
 		  }
 		]
     });
-	var marker = new google.maps.Marker({
+    var marker = new google.maps.Marker({
         position: getSwiftLocation,
-		map: map
+	map: map
     });
 }
 
