@@ -1,0 +1,70 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <script src="./Javascript/JavaScript.js"></script>
+  <script async defer	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8Qy3MrSiI7DTrOl_3KmFJEA7hQqnL-zU&callback=initMap"></script>
+</head>
+<body>
+	<header>
+		<div>
+			<a href="#"><img id="getswiftLogo" src="./img/getswiftLogo.png"></a>
+		</div>
+		<div>
+			<a href="#"><h1>+ ADD</h1></a>
+			<a href="#"><h1>MAP</h1></a>
+			<a href="#"><h1>REPORTS</h1></a>
+			<a href="#"><img id="hamburger" src="./img/Hamburger.svg"></a>
+		</div>
+	</header>
+	<section id="mapContainer">
+		<aside id="mapSideBar">
+			<input class="mapRectangle search" placeholder="search"></input>
+			<div class="mapRectangle">
+				<h2>MENU</h2>
+			</div>
+			<div class="mapRectangle extend">
+				<h2>ALL DRIVERS (1)</h2>
+				<div class="innerRectangle driver">
+					<div>
+						<img src="./img/peterkats.jpg">
+					</div>
+					<div>
+						<h1>PETER KATS</h1>
+						<p>1 jobs</p>
+					</div>
+					<div>
+						<h1><span>AVAILABLE IN</span></h1>
+						<p>19 mins</p>
+					</div>
+				</div>
+			</div>
+			<div class="mapRectangle extend">
+				<h2>ALL JOBS (1)</h2>
+				<div class="innerRectangle job">
+					<div>
+						<div class="flexBetween">
+							<p>2244308</p>
+							<h1>EN ROUTE</h1>
+						</div>
+						<p class="jobLocation">NYC Warehouse</p>
+						<p class="jobName">Jonathan Rosham</p>
+						<div class="flexBetween">
+							<p class="jobDate">Due 10 days ago</p>
+							<img src="./img/alarmClock.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</aside>
+		<div class="mapRectangle mapOptions">
+			<h2>OPTIONS</h2>
+		</div>
+		<div id="getswiftMap">
+		</div>
+	</section>
+</body>
+</html>
